@@ -1,142 +1,56 @@
-name: Barcode Scanner APIs
-description: A collection of APIs for barcode scanning, generation, and lookup services
-image: https://example.com/barcode-apis-logo.png
-created: '2024-01-15'
-modified: '2024-01-15'
-url: https://example.com/barcode-apis
-specificationVersion: '0.16'
-apis:
-- name: Barcode Lookup API
-  description: Retrieve product information by scanning or entering barcode numbers (UPC, EAN, ISBN)
-  image: https://example.com/barcode-lookup-logo.png
-  humanUrl: https://www.barcodelookup.com
-  baseUrl: https://api.barcodelookup.com/v3
-  tags:
-  - barcodes
-  - product-lookup
-  - upc
-  - ean
-  - retail
-  properties:
-  - type: Documentation
-    url: https://www.barcodelookup.com/api
-  - type: OpenAPI
-    url: https://api.barcodelookup.com/openapi.json
-  - type: Authentication
-    url: https://www.barcodelookup.com/api#authentication
-  - type: Pricing
-    url: https://www.barcodelookup.com/api#pricing
-  - type: RateLimits
-    url: https://www.barcodelookup.com/api#rate-limits
-  contact:
-  - type: Support
-    url: https://www.barcodelookup.com/contact
-- name: UPCitemdb API
-  description: Free and commercial API for looking up product information using UPC, EAN, and other barcodes
-  image: https://example.com/upcitemdb-logo.png
-  humanUrl: https://www.upcitemdb.com
-  baseUrl: https://api.upcitemdb.com/prod/trial
-  tags:
-  - barcodes
-  - upc
-  - ean
-  - product-data
-  - free
-  properties:
-  - type: Documentation
-    url: https://www.upcitemdb.com/api/docs
-  - type: OpenAPI
-    url: https://www.upcitemdb.com/api/openapi.yaml
-  - type: SignUp
-    url: https://www.upcitemdb.com/register
-  - type: Pricing
-    url: https://www.upcitemdb.com/api/pricing
-- name: Barcodes4 API
-  description: Generate barcode images in various formats (PNG, SVG, EPS) for multiple barcode types
-  image: https://example.com/barcodes4-logo.png
-  humanUrl: https://barcodes4.me
-  baseUrl: https://api.barcodes4.me/v1
-  tags:
-  - barcode-generation
-  - qr-code
-  - code128
-  - ean13
-  - image-generation
-  properties:
-  - type: Documentation
-    url: https://barcodes4.me/documentation
-  - type: APIReference
-    url: https://barcodes4.me/api-reference
-  - type: Examples
-    url: https://barcodes4.me/examples
-  - type: SupportedFormats
-    url: https://barcodes4.me/supported-formats
-- name: ZXing Decoder API
-  description: Open-source barcode scanning and decoding API supporting multiple barcode formats
-  image: https://example.com/zxing-logo.png
-  humanUrl: https://zxing.org
-  baseUrl: https://api.zxing.org/v1
-  tags:
-  - barcode-scanning
-  - qr-code
-  - open-source
-  - decoder
-  - image-processing
-  properties:
-  - type: Documentation
-    url: https://zxing.org/w/docs/javadoc/
-  - type: GitHub
-    url: https://github.com/zxing/zxing
-  - type: WebDecoder
-    url: https://zxing.org/w/decode
-  - type: License
-    url: https://github.com/zxing/zxing/blob/master/LICENSE
-- name: EAN Search API
-  description: Search and validate EAN, UPC, and ISBN codes with product information
-  image: https://example.com/ean-search-logo.png
-  humanUrl: https://www.ean-search.org
-  baseUrl: https://api.ean-search.org/api
-  tags:
-  - ean
-  - upc
-  - isbn
-  - validation
-  - product-search
-  properties:
-  - type: Documentation
-    url: https://www.ean-search.org/ean-database-api.html
-  - type: Pricing
-    url: https://www.ean-search.org/ean-api-price.html
-  - type: Terms
-    url: https://www.ean-search.org/ean-api-terms.html
-- name: QR Code Generator API
-  description: Generate QR codes with customization options including colors, logos, and error correction
-  image: https://example.com/qr-generator-logo.png
-  humanUrl: https://qr-code-generator.com
-  baseUrl: https://api.qr-code-generator.com/v1
-  tags:
-  - qr-code
-  - generation
-  - customization
-  - mobile
-  properties:
-  - type: Documentation
-    url: https://qr-code-generator.com/api-docs
-  - type: Interactive
-    url: https://qr-code-generator.com/playground
-  - type: Pricing
-    url: https://qr-code-generator.com/pricing
-  - type: Examples
-    url: https://qr-code-generator.com/examples
-maintainers:
-- name: Barcode APIs Collective
-  email: contact@barcode-apis.example.com
-  url: https://example.com/about
+aid: barcode-scanners
+name: Barcode Scanners
+description: >-
+  Barcode scanning technology and APIs for scanning, generating, and looking up
+  barcode data including UPC, EAN, ISBN, QR codes, and other barcode formats
+  used in retail, logistics, and inventory management.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- barcodes
-- scanning
-- qr-codes
-- product-lookup
-- retail
-- inventory
-- mobile
+  - Barcodes
+  - Scanning
+  - QR Codes
+  - Product Lookup
+  - Retail
+  - Inventory
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/barcode-scanners/refs/heads/main/apis.yml
+created: '2024-01-15'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: barcode-scanners:barcode-lookup-api
+    name: Barcode Lookup API
+    description: >-
+      Retrieve product information by scanning or entering barcode numbers
+      including UPC, EAN, and ISBN codes.
+    humanURL: https://www.barcodelookup.com/api
+    baseURL: https://api.barcodelookup.com/v3
+    tags:
+      - Barcodes
+      - Product Lookup
+      - UPC
+      - EAN
+    properties:
+      - type: Documentation
+        url: https://www.barcodelookup.com/api
+      - type: Authentication
+        url: https://www.barcodelookup.com/api#authentication
+  - aid: barcode-scanners:upcitemdb-api
+    name: UPCitemdb API
+    description: >-
+      Free and commercial API for looking up product information using UPC,
+      EAN, and other barcodes.
+    humanURL: https://www.upcitemdb.com/
+    baseURL: https://api.upcitemdb.com/prod/trial
+    tags:
+      - Barcodes
+      - UPC
+      - EAN
+      - Product Data
+    properties:
+      - type: Documentation
+        url: https://www.upcitemdb.com/api/docs
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
