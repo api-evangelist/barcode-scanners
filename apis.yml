@@ -8,11 +8,11 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Barcodes
-  - Scanning
-  - QR Codes
-  - Product Lookup
-  - Retail
   - Inventory
+  - Product Lookup
+  - QR Codes
+  - Retail
+  - Scanning
 url: >-
   https://raw.githubusercontent.com/api-evangelist/barcode-scanners/refs/heads/main/apis.yml
 created: '2024-01-15'
@@ -28,9 +28,9 @@ apis:
     baseURL: https://api.barcodelookup.com/v3
     tags:
       - Barcodes
+      - EAN
       - Product Lookup
       - UPC
-      - EAN
     properties:
       - type: Documentation
         url: https://www.barcodelookup.com/api
@@ -45,9 +45,9 @@ apis:
     baseURL: https://api.upcitemdb.com/prod/trial
     tags:
       - Barcodes
-      - UPC
       - EAN
       - Product Data
+      - UPC
     properties:
       - type: Documentation
         url: https://www.upcitemdb.com/api/docs
