@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "barcode": "https://api-evangelist.github.io/barcode-scanners/vocab/",
+    "schema": "https://schema.org/",
+    "gs1": "https://www.gs1.org/voc/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Barcode": {
+      "@id": "barcode:Barcode",
+      "@type": "@id"
+    },
+    "Product": {
+      "@id": "schema:Product",
+      "@type": "@id"
+    },
+    "BarcodeFormat": {
+      "@id": "barcode:BarcodeFormat",
+      "@type": "@id"
+    },
+    "barcodeNumber": {
+      "@id": "barcode:barcodeNumber",
+      "@type": "xsd:string"
+    },
+    "barcodeFormat": {
+      "@id": "barcode:barcodeFormat",
+      "@type": "xsd:string"
+    },
+    "gtin": {
+      "@id": "gs1:gtin",
+      "@type": "xsd:string"
+    },
+    "upc": {
+      "@id": "barcode:upc",
+      "@type": "xsd:string"
+    },
+    "ean": {
+      "@id": "barcode:ean",
+      "@type": "xsd:string"
+    },
+    "isbn": {
+      "@id": "barcode:isbn",
+      "@type": "xsd:string"
+    },
+    "productName": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "description": "schema:description",
+    "brand": "schema:brand",
+    "category": "schema:category",
+    "image": "schema:image",
+    "price": "schema:price"
+  }
+}

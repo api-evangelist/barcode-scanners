@@ -17,7 +17,7 @@ tags:
   - Supply Chain
 url: https://raw.githubusercontent.com/api-evangelist/barcode-scanners/refs/heads/main/apis.yml
 created: '2024-01-15'
-modified: '2026-04-19'
+modified: '2026-04-21'
 specificationVersion: '0.19'
 apis:
   - aid: barcode-scanners:barcode-lookup-api
@@ -77,6 +77,10 @@ common:
   - type: Website
     url: https://www.ean-search.org/
     name: EAN-Search
+  - type: Vocabulary
+    url: vocabulary/barcode-scanners-vocabulary.yaml
+  - type: JSON-LD
+    url: json-ld/barcode-scanners-context.jsonld
   - name: Key Formats
     type: Features
     data:

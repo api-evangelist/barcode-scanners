@@ -10,7 +10,7 @@ Barcode scanning technology and APIs for scanning, generating, and looking up ba
 ## Timestamps
 
 - **Created:** 2024-01-15
-- **Modified:** 2026-04-19
+- **Modified:** 2026-04-21
 
 ## APIs
 
@@ -28,6 +28,14 @@ Free and commercial API for product lookup using UPC, EAN, and other barcodes.
 Search and validate EAN-13, UPC-A, and ISBN codes with product information.
 
 **Human URL:** [https://www.ean-search.org/ean-database-api.html](https://www.ean-search.org/ean-database-api.html)
+
+## Common Resources
+
+- [Barcode Lookup](https://www.barcodelookup.com/)
+- [UPCitemdb](https://www.upcitemdb.com/)
+- [EAN-Search](https://www.ean-search.org/)
+- [Vocabulary](vocabulary/barcode-scanners-vocabulary.yaml)
+- [JSON-LD Context](json-ld/barcode-scanners-context.jsonld)
 
 ## Key Formats
 

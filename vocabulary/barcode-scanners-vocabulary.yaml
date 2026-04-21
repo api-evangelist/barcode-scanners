@@ -1,0 +1,38 @@
+vocabulary:
+  name: Barcode Scanners Vocabulary
+  description: Terms and concepts related to barcode formats, scanning technology, and barcode data APIs.
+  terms:
+    - term: UPC-A
+      definition: Universal Product Code - a 12-digit barcode format used for retail product identification in North America.
+    - term: UPC-E
+      definition: Compressed version of UPC-A using 6 digits for smaller product packaging.
+    - term: EAN-13
+      definition: European Article Number - a 13-digit barcode format for global retail product identification.
+    - term: EAN-8
+      definition: Shortened EAN format using 8 digits for small product packaging.
+    - term: ISBN
+      definition: International Standard Book Number - a barcode format for identifying books, using 10 or 13 digits.
+    - term: QR Code
+      definition: Quick Response Code - a 2D matrix barcode storing URLs, text, and structured data, widely used for mobile scanning.
+    - term: Code 128
+      definition: A high-density linear barcode supporting the full ASCII character set, common in shipping and logistics labels.
+    - term: Code 39
+      definition: An alphanumeric barcode format used in industrial, healthcare, and government applications.
+    - term: Data Matrix
+      definition: A 2D barcode format used for small items, pharmaceutical packaging, and aerospace parts marking.
+    - term: PDF417
+      definition: A stacked linear barcode format used for driver's licenses, boarding passes, and identity documents.
+    - term: GS1
+      definition: The global standards organization responsible for barcode standards including EAN and GS1-128 used in supply chains.
+    - term: GTIN
+      definition: Global Trade Item Number - a standardized number for uniquely identifying products, encoded in GS1 barcodes.
+    - term: SSCC
+      definition: Serial Shipping Container Code - an 18-digit GS1 identifier for tracking logistics units.
+    - term: Barcode Lookup
+      definition: An API service that retrieves product information (name, description, images, price) from a barcode number.
+    - term: Check Digit
+      definition: A digit appended to a barcode number to verify the barcode has been correctly read or entered.
+    - term: Symbology
+      definition: The particular barcode format or encoding standard used, such as EAN-13, Code 128, or QR Code.
+    - term: Decode
+      definition: The process of reading and interpreting the data encoded in a barcode.
