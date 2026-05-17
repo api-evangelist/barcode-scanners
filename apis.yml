@@ -79,7 +79,7 @@ common:
     name: EAN-Search
   - type: Vocabulary
     url: vocabulary/barcode-scanners-vocabulary.yaml
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/barcode-scanners-context.jsonld
   - name: Key Formats
     type: Features
