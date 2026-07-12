@@ -1,0 +1,38 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.barcodelookup.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  9 15:02:35 2026 GMT
+  hsts: null
+- host: www.upcitemdb.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Jul 22 23:59:59 2026 GMT
+  hsts: false
+- host: www.ean-search.org
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 29 03:31:22 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: barcodelookup.com
+  dnssec: false
+  caa:
+  - 0 issuewild "letsencrypt.org"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "ssl.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "letsencrypt.org"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: upcitemdb.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

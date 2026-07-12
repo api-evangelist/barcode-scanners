@@ -68,6 +68,8 @@ apis:
       - type: Documentation
         url: https://www.ean-search.org/ean-database-api.html
 common:
+  - type: DomainSecurity
+    url: security/barcode-scanners-domain-security.yml
   - type: Website
     url: https://www.barcodelookup.com/
     name: Barcode Lookup
