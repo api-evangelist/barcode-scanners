@@ -1,5 +1,6 @@
 aid: barcode-scanners
 name: Barcode Scanners
+kind: topic
 description: >-
   Barcode scanning technology and APIs for scanning, generating, and looking up barcode
   data including UPC, EAN, ISBN, QR codes, Code 128, Code 39, and other barcode formats
