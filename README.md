@@ -1,4 +1,4 @@
-# Barcode Scanners (barcode-scanners)
+# barcode-scanners
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,70 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Barcode scanning technology and APIs for scanning, generating, and looking up barcode data including UPC, EAN, ISBN, QR codes, and other barcode formats used in retail, logistics, inventory management, and supply chain operations.
+## barcode-scanners on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/barcode-scanners/refs/heads/main/apis.yml)
+Everything profiled for barcode-scanners is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/barcode-scanners/](https://apis.io/providers/barcode-scanners/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+## API Evangelist rating
 
- - Barcodes, Inventory, Product Lookup, QR Codes, Retail, Scanning, Supply Chain
+Not yet rated. See [apis.io/providers/barcode-scanners/](https://apis.io/providers/barcode-scanners/).
 
-## Timestamps
+## How this profile is made
 
-- **Created:** 2024-01-15
-- **Modified:** 2026-04-21
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## APIs
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for barcode-scanners: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### Barcode Lookup API
-Retrieve product information by scanning or entering UPC, EAN, and ISBN codes.
+## Open an issue
 
-**Human URL:** [https://www.barcodelookup.com/api](https://www.barcodelookup.com/api)
-
-### UPCitemdb API
-Free and commercial API for product lookup using UPC, EAN, and other barcodes.
-
-**Human URL:** [https://www.upcitemdb.com/api/docs](https://www.upcitemdb.com/api/docs)
-
-### EAN-Search API
-Search and validate EAN-13, UPC-A, and ISBN codes with product information.
-
-**Human URL:** [https://www.ean-search.org/ean-database-api.html](https://www.ean-search.org/ean-database-api.html)
-
-## Common Resources
-
-- [Barcode Lookup](https://www.barcodelookup.com/)
-- [UPCitemdb](https://www.upcitemdb.com/)
-- [EAN-Search](https://www.ean-search.org/)
-- [Vocabulary](vocabulary/barcode-scanners-vocabulary.yaml)
-- [JSON-LD Context](json-ld/barcode-scanners-context.jsonld)
-
-## Key Formats
-
-| Name | Description |
-|------|-------------|
-| UPC-A / UPC-E | Universal Product Code for retail products in North America. |
-| EAN-13 / EAN-8 | International Article Number for global retail products. |
-| QR Code | 2D matrix barcode for URLs, text, and structured data. |
-| Code 128 | High-density linear barcode for logistics and shipping labels. |
-| Code 39 | Alphanumeric barcode common in industrial and healthcare settings. |
-| ISBN | International Standard Book Number for books and publications. |
-| Data Matrix | 2D code for small items and pharmaceutical packaging. |
-| PDF417 | Stacked linear barcode for driver's licenses and boarding passes. |
-
-## Use Cases
-
-| Name | Description |
-|------|-------------|
-| Retail Product Lookup | Scan UPC/EAN barcodes to retrieve product details for e-commerce and inventory. |
-| Inventory Management | Track stock levels and product movements using barcode scanning. |
-| Supply Chain Tracking | Monitor shipments and warehouse inventory via Code 128 and GS1 barcodes. |
-| QR Code Marketing | Generate QR codes for product packaging, ads, and digital campaigns. |
-| Healthcare Asset Tracking | Track medical equipment and medications with Code 39 and Data Matrix. |
-| Document Management | Index and retrieve documents using barcode labels. |
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/barcode-scanners/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
